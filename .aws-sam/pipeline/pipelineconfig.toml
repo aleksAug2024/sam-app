@@ -9,15 +9,15 @@ oidc_provider = "github-actions"
 permissions_provider = "OpenID Connect (OIDC)"
 
 [dev.pipeline_bootstrap.parameters]
-pipeline_execution_role = "arn:aws:iam::119254272961:role/aws-sam-cli-managed-dev-pipel-PipelineExecutionRole-eMHBBUr3ALkj"
-cloudformation_execution_role = "arn:aws:iam::119254272961:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionRo-CLQ2b74kG7MV"
-artifacts_bucket = "aws-sam-cli-managed-dev-pipeline-r-artifactsbucket-selqci8wyu7t"
+pipeline_execution_role = "arn:aws:iam::119254272961:role/aws-sam-cli-managed-dev-pipel-PipelineExecutionRole-YI9flNQWMq7v"
+cloudformation_execution_role = "arn:aws:iam::119254272961:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionRo-GgtvNRz7jixA"
+artifacts_bucket = "aws-sam-cli-managed-dev-pipeline-r-artifactsbucket-2jt1ztfrmqxz"
 image_repository = ""
 region = "us-east-1"
 
 [prod.pipeline_bootstrap.parameters]
-pipeline_execution_role = "arn:aws:iam::119254272961:role/aws-sam-cli-managed-prod-pipe-PipelineExecutionRole-z3uW4LsWEzzw"
-cloudformation_execution_role = "arn:aws:iam::119254272961:role/aws-sam-cli-managed-prod--CloudFormationExecutionRo-JVyuEui9RbeM"
-artifacts_bucket = "aws-sam-cli-managed-prod-pipeline--artifactsbucket-lbal7orfjpkq"
+pipeline_execution_role = "arn:aws:iam::119254272961:role/aws-sam-cli-managed-prod-pipe-PipelineExecutionRole-10mX4zYJhzSG"
+cloudformation_execution_role = "arn:aws:iam::119254272961:role/aws-sam-cli-managed-prod--CloudFormationExecutionRo-gyOnFcHqpWlu"
+artifacts_bucket = "aws-sam-cli-managed-prod-pipeline--artifactsbucket-ujskreqq9agq"
 image_repository = ""
 region = "us-east-1"
